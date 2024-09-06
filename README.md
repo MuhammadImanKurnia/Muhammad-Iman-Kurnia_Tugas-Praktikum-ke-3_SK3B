@@ -66,8 +66,10 @@ Kelas : SK3B
    Jawab :
 
    - Mengubah kepemilikan
+     
      Pertama-tama kita masuk ke sub direktori februari dulu, kemudian kita menggunakan command prompt chmod. Caranya, ketik chmod ug=r, itu berarti user dan group hanya bisa      melakukan read. Lalu kita ketik nama filenya
      ![Screenshot from 2024-09-06 11-53-04](https://github.com/user-attachments/assets/1a78c3b2-01b5-40f3-893d-0ec2d91360fe)
    - Membuat direktori baru
+     
      Untuk membuat direktori baru pada sub direktori februari, kita bisa menggunakan command prompt mkdir. Caranya adalah ketik mkdir, lalu ketik nama direktori yang mau          kita buat (misalnya haha)
      ![Screenshot from 2024-09-06 11-53-59](https://github.com/user-attachments/assets/2c000c9e-289d-4667-a980-5332f5205543)
