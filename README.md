@@ -30,5 +30,7 @@ Kelas : SK3B
    
    Pertama-tama kita membuat file dataku.txt dulu di sub direktori januari menggunakan command prompt vim, setelah di enter tampilannya akan seperti ini :
    ![Screenshot from 2024-09-05 19-52-12](https://github.com/user-attachments/assets/8a0e7567-eccf-427e-9863-e762a519b3b3)
-   Isi nama, nim dan alamat (agar bisa mengetik di situ ketik dulu huruf i). Untuk keluar dari tampilan tersebut, pencet esc, lalu ketik :wq. Kemudian kita ingin mengcopy       file dataku.txt ke sub direktori 
+   Isi nama, nim dan alamat (agar bisa mengetik di situ ketik dulu huruf i). Untuk keluar dari tampilan tersebut, pencet esc, lalu ketik :wq. Kemudian kita ingin mengcopy       file dataku.txt ke sub direktori februari dan maret. Caranya adalah menggunakan command prompt cp -v, lalu nama file yang ingin kita copy (misalnya dataku.txt), lalu         tujuannya
+   ![Screenshot from 2024-09-05 19-56-23](https://github.com/user-attachments/assets/347e481e-3f75-4833-a74c-223922054ef4)
+
 
