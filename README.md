@@ -33,4 +33,29 @@ Kelas : SK3B
    Isi nama, nim dan alamat (agar bisa mengetik di situ ketik dulu huruf i). Untuk keluar dari tampilan tersebut, pencet esc, lalu ketik :wq. Kemudian kita ingin mengcopy       file dataku.txt ke sub direktori februari dan maret. Caranya adalah menggunakan command prompt cp -v, lalu nama file yang ingin kita copy (misalnya dataku.txt), lalu         tujuannya
    ![Screenshot from 2024-09-05 19-56-23](https://github.com/user-attachments/assets/347e481e-3f75-4833-a74c-223922054ef4)
 
+4. Ubahlah ijin akses file dataku pada sub direktori januari sehingga group dan others dapat melakukan write
 
+   Jawab :
+
+   Pertama-tama kita masuk ke sub direktori januari terlebih dahulu, kemudian kita ingin mengubah ijin akses file dataku.txt agar group dan others dapat melakukan write.        Caranya adalah menggunakan command prompt chmod. Caranya yaitu ketik chmod go+w, yang dimana go itu berarti group dan others, w adalah write, itu artinya group dan others    bisa melakukan write file tersebut. Setelah mengetik chmod go+w, kita ketik nama file yang ingin diganti ijin aksesnya (misalnya dataku.txt)
+   ![Screenshot from 2024-09-06 10-34-34](https://github.com/user-attachments/assets/99b8e756-c550-4f9e-8068-d26c4f7fc5b0)
+
+5. Ubahlah ijin akses file dataku pada sub direktori februari sehingga user dapat melakukan baik write, read maupun execute, tetapi group dan others hanya bisa read dan         execute
+
+   Jawab :
+
+   Pertama-tama kita masuk ke sub direktori februari terlebih dahulu, lalu kita menggunakan comman prompt chmod. Caranya, ketik chmod u=rwx,g=rx,o=rx. u=rwx berarti user        bisa melakukan read, write dan execute. g=rx berarti group hanya bisa melakukan read dan execute. o=rx berarti others hanya bisa melakukan read dan execute. Kemudian kita    ketik nama filenya
+   ![Screenshot from 2024-09-06 11-07-39](https://github.com/user-attachments/assets/6fab3612-2024-455c-8cfd-1017a1922b0b)
+
+6. Ubahlah ijin akses file dataku pada sub direktori maret sehingga semua dapat melakukan write, read dan execute
+
+   Jawab :
+
+   Pertama-tama kita masuk ke sub direktori maret terlebih dahulu, lalu kita menggunakan comman prompt chmod. Caranya, ketik chmod ugo=rwx, yang berarti user, group dan         others bisa melakukan read, write dan execute. Kemudian kita ketik nama filenya
+   ![Screenshot from 2024-09-06 11-17-53](https://github.com/user-attachments/assets/9c12c636-eb16-426e-b4e1-3872ed206619)
+
+7. Hapuslah direktori maret
+
+   Jawab :
+
+   
