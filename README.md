@@ -58,4 +58,16 @@ Kelas : SK3B
 
    Jawab :
 
-   
+   Pertama-tama kita masuk ke direktori Latihan5 dulu. Untuk menghapus direktori maret, kita bisa menggunakan command prompt rm -r, ini akan menghapus direktori tersebut        beserta isi didalamnya. Caranya, kita ketik rm -r, kemudian kita ketik nama sub direktori yang ingin kita hapus
+   ![Screenshot from 2024-09-06 11-38-13](https://github.com/user-attachments/assets/711a3463-1e1a-4acd-8b06-afe94ab22ebe)
+
+8. Ubahlah kepemilikan sub direktori februari sehingga user dan group hanya read, dan cobalah untuk membuat membuat direktori baru _haha_ pada sub direktori februari
+
+   Jawab :
+
+   - Mengubah kepemilikan
+     Pertama-tama kita masuk ke sub direktori februari dulu, kemudian kita menggunakan command prompt chmod. Caranya, ketik chmod ug=r, itu berarti user dan group hanya bisa      melakukan read. Lalu kita ketik nama filenya
+     ![Screenshot from 2024-09-06 11-53-04](https://github.com/user-attachments/assets/1a78c3b2-01b5-40f3-893d-0ec2d91360fe)
+   - Membuat direktori baru
+     Untuk membuat direktori baru pada sub direktori februari, kita bisa menggunakan command prompt mkdir. Caranya adalah ketik mkdir, lalu ketik nama direktori yang mau          kita buat (misalnya haha)
+     ![Screenshot from 2024-09-06 11-53-59](https://github.com/user-attachments/assets/2c000c9e-289d-4667-a980-5332f5205543)
