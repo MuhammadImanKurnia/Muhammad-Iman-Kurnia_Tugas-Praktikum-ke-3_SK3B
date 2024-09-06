@@ -70,6 +70,28 @@ Kelas : SK3B
      Pertama-tama kita masuk ke sub direktori februari dulu, kemudian kita menggunakan command prompt chmod. Caranya, ketik chmod ug=r, itu berarti user dan group hanya bisa      melakukan read. Lalu kita ketik nama filenya
      ![Screenshot from 2024-09-06 11-53-04](https://github.com/user-attachments/assets/1a78c3b2-01b5-40f3-893d-0ec2d91360fe)
    - Membuat direktori baru
-     
+
      Untuk membuat direktori baru pada sub direktori februari, kita bisa menggunakan command prompt mkdir. Caranya adalah ketik mkdir, lalu ketik nama direktori yang mau          kita buat (misalnya haha)
      ![Screenshot from 2024-09-06 11-53-59](https://github.com/user-attachments/assets/2c000c9e-289d-4667-a980-5332f5205543)
+
+  
+9. Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakah nilai defaultnya?
+
+   Jawab :
+
+   umask 027 adalah command prompt yang membuat file baru memiliki izin akses default 640 (rw-r-----) dan direktori baru akan memilki izin default 750 (rwxr-x---). Karena       kita sudah membuat file dataku.txt sebelumnya, kita bisa menggunakan command prompt chmod untuk mengubah izinnya secara manual. Caranya kita ketik chmod 640 dataku.txt,      ini akan membuat file dataku.txt memiliki izin akses 640 (rw-r-----)
+   ![Screenshot from 2024-09-06 12-47-22](https://github.com/user-attachments/assets/e68a5fd2-8415-4282-8e8d-726c380eb5d1)
+   Untuk pertanyaan berapa nilai defaultnya, nilai default dari umask 027 adalah 640 (rw-r-----) untuk file baru dan 750 (rwxr-x---) untuk direktori baru
+
+10. Buatlah link dari file dataku ke file dataku.ini dan file dataku.juga dan dengan perintah list perhatikan berapa link yang terjadi
+
+    Jawab :
+
+    Untuk membuat link dari file dataku.txt ke file dataku.ini dan file dataku.juga, kita bisa menggunakan command prompt ln -s
+    ![Screenshot from 2024-09-06 13-02-06](https://github.com/user-attachments/assets/6be84b7f-88cb-49ca-b9b6-57a5373b8bb0)
+    Lalu dengan command prompt ls -l, kita bisa melihat berapa link yang terjadi
+    ![Screenshot from 2024-09-06 13-05-57](https://github.com/user-attachments/assets/4199a3ec-2a08-44ab-ad24-b613ff4463cd)
+    Jika kita lihat, ada dua link yang terjadi
+
+
+
