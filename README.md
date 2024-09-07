@@ -64,12 +64,13 @@ Kelas : SK3B
 8. Ubahlah kepemilikan sub direktori februari sehingga user dan group hanya read, dan cobalah untuk membuat membuat direktori baru _haha_ pada sub direktori februari
 
    Jawab :
-
+   
+   Pertama-tama kita masuk ke direktori Latihan5 dulu, lalu untuk mengubah kepemilikan sub direktori februari agar user dan group hanya bisa melakukan read adalah dengan menggunakan command prompt chamod. Caranya adalah ketik chmod ug=r, itu berarti user dan group hanya bisa melakukan read, kemudian kita ketik nama sub direktori yang ingin kita ubah kepemilkannya (misalnya februari)
      ![Screenshot from 2024-09-07 14-03-40](https://github.com/user-attachments/assets/23fdedb4-a828-4b37-9d4d-bafe94d9fec1)
-
+   Lalu untuk menambahkan direktori baru bernama haha, kita bisa menggunakan command prompt mkdir. Caranya adalah ketik mkdir, lalu nama sub direktori yang ingin kita buat
      ![Screenshot from 2024-09-07 14-04-06](https://github.com/user-attachments/assets/eac5a809-284d-477a-907b-aa75d88445c9)
 
-9. Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakah nilai defaultnya?
+10. Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakah nilai defaultnya?
 
    Jawab :
 
@@ -77,7 +78,7 @@ Kelas : SK3B
    ![Screenshot from 2024-09-06 12-47-22](https://github.com/user-attachments/assets/e68a5fd2-8415-4282-8e8d-726c380eb5d1)
    Untuk pertanyaan berapa nilai defaultnya, nilai default dari umask 027 adalah 640 (rw-r-----) untuk file baru dan 750 (rwxr-x---) untuk direktori baru
 
-10. Buatlah link dari file dataku ke file dataku.ini dan file dataku.juga dan dengan perintah list perhatikan berapa link yang terjadi
+11. Buatlah link dari file dataku ke file dataku.ini dan file dataku.juga dan dengan perintah list perhatikan berapa link yang terjadi
 
     Jawab :
 
