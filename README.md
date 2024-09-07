@@ -69,7 +69,7 @@ Kelas : SK3B
      ![Screenshot from 2024-09-07 14-03-40](https://github.com/user-attachments/assets/23fdedb4-a828-4b37-9d4d-bafe94d9fec1)
    Lalu untuk menambahkan direktori baru bernama haha, kita bisa menggunakan command prompt mkdir. Caranya adalah ketik mkdir, lalu nama sub direktori yang ingin kita buat
      ![Screenshot from 2024-09-07 14-04-06](https://github.com/user-attachments/assets/eac5a809-284d-477a-907b-aa75d88445c9)
-   Jika muncul tulisan permission denger, ya berarti sub direktori februari sudah berhasil kita ubah
+   Jika muncul tulisan permission denied, ya berarti sub direktori februari sudah berhasil kita ubah
 
 9. Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakah nilai defaultnya?
 
