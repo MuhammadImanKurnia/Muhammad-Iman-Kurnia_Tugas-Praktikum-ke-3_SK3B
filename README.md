@@ -77,7 +77,7 @@ Kelas : SK3B
 
    umask 027 adalah command prompt yang membuat file baru memiliki izin akses default 640 (rw-r-----) dan direktori baru akan memilki izin default 750 (rwxr-x---). Karena       kita sudah membuat file dataku.txt sebelumnya, kita bisa menggunakan command prompt chmod untuk mengubah izinnya secara manual. Caranya kita ketik chmod 640 dataku.txt,      ini akan membuat file dataku.txt memiliki izin akses 640 (rw-r-----)
    ![Screenshot from 2024-09-06 12-47-22](https://github.com/user-attachments/assets/e68a5fd2-8415-4282-8e8d-726c380eb5d1)
-   Untuk pertanyaan berapa nilai defaultnya, nilai default dari umask 027 adalah 640 (rw-r-----) untuk file baru dan 750 (rwxr-x---) untuk direktori baru
+   Untuk pertanyaan berapa nilai defaultnya, nilai default umask adalah 002
 
 10. Buatlah link dari file dataku ke file dataku.ini dan file dataku.juga dan dengan perintah list perhatikan berapa link yang terjadi
 
