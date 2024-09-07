@@ -70,7 +70,7 @@ Kelas : SK3B
    Lalu untuk menambahkan direktori baru bernama haha, kita bisa menggunakan command prompt mkdir. Caranya adalah ketik mkdir, lalu nama sub direktori yang ingin kita buat
      ![Screenshot from 2024-09-07 14-04-06](https://github.com/user-attachments/assets/eac5a809-284d-477a-907b-aa75d88445c9)
 
-10. Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakah nilai defaultnya?
+9. Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakah nilai defaultnya?
 
    Jawab :
 
@@ -78,7 +78,7 @@ Kelas : SK3B
    ![Screenshot from 2024-09-06 12-47-22](https://github.com/user-attachments/assets/e68a5fd2-8415-4282-8e8d-726c380eb5d1)
    Untuk pertanyaan berapa nilai defaultnya, nilai default dari umask 027 adalah 640 (rw-r-----) untuk file baru dan 750 (rwxr-x---) untuk direktori baru
 
-11. Buatlah link dari file dataku ke file dataku.ini dan file dataku.juga dan dengan perintah list perhatikan berapa link yang terjadi
+10. Buatlah link dari file dataku ke file dataku.ini dan file dataku.juga dan dengan perintah list perhatikan berapa link yang terjadi
 
     Jawab :
 
