@@ -1,6 +1,6 @@
 # Muhammad-Iman-Kurnia_Tugas-Praktikum-ke-3_SK3B
 
-Tugas Praktikum
+Tugas Praktikum ke 3
 
 Nama  : Muhammad Iman Kurnia
 
